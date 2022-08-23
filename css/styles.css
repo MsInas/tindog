@@ -1,0 +1,195 @@
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  padding: 3% 2%;
+}
+
+h3 {
+  font-family: 'Montserrat' sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p {
+ color: #8f8f8f;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 1.5rem;
+}
+
+#brandname {
+  font-size: 2.5rem;
+}
+
+
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  }
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.iphoneimage {
+    transform: rotate(20deg);
+    position: absolute;
+    right: 30%;
+    padding-top: 3%;
+
+}
+
+#imgsize {
+max-width: 40%;
+height: auto;
+}
+
+
+/* features section */
+
+#features {
+padding: 10% 15%;
+text-align: center;
+background-color: #FFFFFF;
+position:relative;
+z-index: 1;
+}
+
+
+/* icons */
+
+.icon {
+  color: #F65A83;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/* testimonials */
+
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.presslogo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 5% 15%;
+}
+
+.dogbreed {
+  color: #000000;
+
+}
+
+.card-title-pricing {
+  color: #000000;
+}
+
+.pricingplan {
+  text-align: center;
+  color: #ff4c68;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pricingbutton {
+  background-color: #ff4c68;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* media jquery's */
+
+@media (max-width: 991px)  {
+  .iphoneimage {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    position: static;
+    text-align: center;
+  }
+}
+
+/* call to action */
+
+.calltoaction {
+  background-color: #ff4c68;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 2rem;
+  padding: 10% 15%;
+}
+
+.ctah3 {
+  padding: 3%;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+/* footer */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.fa-brands {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.fa-solid {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.footerp {
+  text-align: center;
+}
